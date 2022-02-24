@@ -1,29 +1,24 @@
-# Hoo-smart-contracts
+# heco-contracts
 
 ## Prepare
 
 Install dependency:
 
 ```bash
-npm install
+yarn
 ```
+
+Compile files:
+
+```bash
+yarn compile
+```
+
+Release solidity files will be generated in `cache` folder.
 
 ## unit test
-
-Generate test contract files:
-
-```bash
-node generate-mock-contracts.js
-```
-
-Start ganache:
-
-```bash
-ganache-cli -e 20000000000 -a 100 -l 8000000 -g 0
-```
-
 Test:
 
 ```bash
-truffle test
+yarn test
 ```
