@@ -1,0 +1,115 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Params",
+  "sourceName": "cache/solpp-generated-contracts/Params.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "MaxValidators",
+      "outputs": [
+        {
+          "internalType": "uint16",
+          "name": "",
+          "type": "uint16"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "MinimalStakingCoin",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "ProposalAddr",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "PunishContractAddr",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "StakingLockPeriod",
+      "outputs": [
+        {
+          "internalType": "uint64",
+          "name": "",
+          "type": "uint64"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "ValidatorContractAddr",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "WithdrawProfitPeriod",
+      "outputs": [
+        {
+          "internalType": "uint64",
+          "name": "",
+          "type": "uint64"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "initialized",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b506101b3806100206000396000f3fe608060405234801561001057600080fd5b50600436106100885760003560e01c8063be6456921161005b578063be645692146100dd578063c967f90f146100f7578063db78dd2814610116578063efd8d8e21461013b57610088565b8063158ef93e1461008d5780631b5e358c146100a95780633a061bd3146100cd5780636233be5d146100d5575b600080fd5b610095610143565b604080519115158252519081900360200190f35b6100b161014c565b604080516001600160a01b039092168252519081900360200190f35b6100b1610152565b6100b1610158565b6100e561015e565b60408051918252519081900360200190f35b6100ff61016b565b6040805161ffff9092168252519081900360200190f35b61011e610170565b6040805167ffffffffffffffff9092168252519081900360200190f35b61011e610177565b60005460ff1681565b61f00181565b61f00081565b61f00281565b6801bc16d674ec80000081565b601581565b6201518081565b6170808156fea26469706673582212202e1be03aa3da1939dbe891a8b37d372022fcdfd512b4ec93328bd19cd61fdb0664736f6c634300060c0033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100885760003560e01c8063be6456921161005b578063be645692146100dd578063c967f90f146100f7578063db78dd2814610116578063efd8d8e21461013b57610088565b8063158ef93e1461008d5780631b5e358c146100a95780633a061bd3146100cd5780636233be5d146100d5575b600080fd5b610095610143565b604080519115158252519081900360200190f35b6100b161014c565b604080516001600160a01b039092168252519081900360200190f35b6100b1610152565b6100b1610158565b6100e561015e565b60408051918252519081900360200190f35b6100ff61016b565b6040805161ffff9092168252519081900360200190f35b61011e610170565b6040805167ffffffffffffffff9092168252519081900360200190f35b61011e610177565b60005460ff1681565b61f00181565b61f00081565b61f00281565b6801bc16d674ec80000081565b601581565b6201518081565b6170808156fea26469706673582212202e1be03aa3da1939dbe891a8b37d372022fcdfd512b4ec93328bd19cd61fdb0664736f6c634300060c0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

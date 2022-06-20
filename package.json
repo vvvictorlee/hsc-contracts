@@ -1,7 +1,7 @@
 {
-  "name": "heco-contracts",
+  "name": "hsc-contracts",
   "version": "1.0.0",
-  "description": "hchain system contracts",
+  "description": "hsc system contracts",
   "main": "generate-contracts.js",
   "directories": {
     "test": "test"

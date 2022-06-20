@@ -1,0 +1,172 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Params",
+  "sourceName": "cache/solpp-generated-contracts/v1/mock/MockParams.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "JailPeriod",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "MarginLockPeriod",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "MaxValidators",
+      "outputs": [
+        {
+          "internalType": "uint16",
+          "name": "",
+          "type": "uint16"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "PercentChangeLockPeriod",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "PoaMinMargin",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "PosMinMargin",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "PunishAmount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "WithdrawLockPeriod",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "initialized",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "punishContract",
+      "outputs": [
+        {
+          "internalType": "contract IPunish",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_val",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_punish",
+          "type": "address"
+        }
+      ],
+      "name": "setAddress",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "validatorsContract",
+      "outputs": [
+        {
+          "internalType": "contract IValidators",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b50610236806100206000396000f3fe608060405234801561001057600080fd5b50600436106100b45760003560e01c806371a1bb751161007157806371a1bb751461014b578063741579b1146100b95780639001eed814610153578063c967f90f1461015b578063ec0cb336146100ef578063f3b1cc67146100ef576100b4565b806303fab4f6146100b9578063158ef93e146100d357806315de360e146100ef5780632e4f67e4146100ef5780633b58524d146100f757806344f9990014610127575b600080fd5b6100c161017a565b60408051918252519081900360200190f35b6100db610186565b604080519115158252519081900360200190f35b6100c161018f565b6101256004803603604081101561010d57600080fd5b506001600160a01b0381358116916020013516610194565b005b61012f6101cc565b604080516001600160a01b039092168252519081900360200190f35b61012f6101db565b6100c16101ef565b6101636101fb565b6040805161ffff9092168252519081900360200190f35b670de0b6b3a764000081565b60005460ff1681565b600081565b60008054610100600160a81b0319166101006001600160a01b0394851602179055600180546001600160a01b03191691909216179055565b6001546001600160a01b031681565b60005461010090046001600160a01b031681565b674563918244f4000081565b60158156fea26469706673582212201cb66c73cca15932c6548a27ce56456af70fcd490b3496ccebce1b4599de408564736f6c634300060c0033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100b45760003560e01c806371a1bb751161007157806371a1bb751461014b578063741579b1146100b95780639001eed814610153578063c967f90f1461015b578063ec0cb336146100ef578063f3b1cc67146100ef576100b4565b806303fab4f6146100b9578063158ef93e146100d357806315de360e146100ef5780632e4f67e4146100ef5780633b58524d146100f757806344f9990014610127575b600080fd5b6100c161017a565b60408051918252519081900360200190f35b6100db610186565b604080519115158252519081900360200190f35b6100c161018f565b6101256004803603604081101561010d57600080fd5b506001600160a01b0381358116916020013516610194565b005b61012f6101cc565b604080516001600160a01b039092168252519081900360200190f35b61012f6101db565b6100c16101ef565b6101636101fb565b6040805161ffff9092168252519081900360200190f35b670de0b6b3a764000081565b60005460ff1681565b600081565b60008054610100600160a81b0319166101006001600160a01b0394851602179055600180546001600160a01b03191691909216179055565b6001546001600160a01b031681565b60005461010090046001600160a01b031681565b674563918244f4000081565b60158156fea26469706673582212201cb66c73cca15932c6548a27ce56456af70fcd490b3496ccebce1b4599de408564736f6c634300060c0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

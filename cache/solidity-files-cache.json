@@ -1,0 +1,885 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/lisheng/mygit/vvvictorlee/hsc/hsc-contracts/cache/solpp-generated-contracts/library/SafeMath.sol": {
+      "lastModificationDate": 1655536558904,
+      "contentHash": "b3a07d4e470a9c51df4ad0cd87a3f874",
+      "sourceName": "cache/solpp-generated-contracts/library/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/lisheng/mygit/vvvictorlee/hsc/hsc-contracts/cache/solpp-generated-contracts/v1/Validators.sol": {
+      "lastModificationDate": 1655536559195,
+      "contentHash": "d8bc7bf8d4548135ae0ae9d16efd050f",
+      "sourceName": "cache/solpp-generated-contracts/v1/Validators.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Params.sol",
+        "../library/SafeMath.sol",
+        "./VotePool.sol",
+        "./library/SortedList.sol",
+        "./interfaces/IVotePool.sol",
+        "./interfaces/IValidators.sol",
+        "./library/SafeSend.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Validators"
+      ]
+    },
+    "/Users/lisheng/mygit/vvvictorlee/hsc/hsc-contracts/cache/solpp-generated-contracts/v1/Params.sol": {
+      "lastModificationDate": 1655536559148,
+      "contentHash": "2b78f44b10ff88f7fd3f7e0d1d2158ca",
+      "sourceName": "cache/solpp-generated-contracts/v1/Params.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IValidators.sol",
+        "./interfaces/IPunish.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Params"
+      ]
+    },
+    "/Users/lisheng/mygit/vvvictorlee/hsc/hsc-contracts/cache/solpp-generated-contracts/v1/VotePool.sol": {
+      "lastModificationDate": 1655536559212,
+      "contentHash": "624dc775861dadb6c889d574b9ebc587",
+      "sourceName": "cache/solpp-generated-contracts/v1/VotePool.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Params.sol",
+        "../library/SafeMath.sol",
+        "./library/ReentrancyGuard.sol",
+        "./library/SafeSend.sol",
+        "./interfaces/IVotePool.sol",
+        "./interfaces/IValidators.sol",
+        "./interfaces/IPunish.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "VotePool"
+      ]
+    },
+    "/Users/lisheng/mygit/vvvictorlee/hsc/hsc-contracts/cache/solpp-generated-contracts/v1/library/SortedList.sol": {
+      "lastModificationDate": 1655536559062,
+      "contentHash": "f9419f2ecffeddb3913cb68b4444699a",
+      "sourceName": "cache/solpp-generated-contracts/v1/library/SortedList.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IVotePool.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "SortedLinkedList"
+      ]
+    },
+    "/Users/lisheng/mygit/vvvictorlee/hsc/hsc-contracts/cache/solpp-generated-contracts/v1/interfaces/IVotePool.sol": {
+      "lastModificationDate": 1655536559049,
+      "contentHash": "1a9308c67372d96023c4ca183c92a375",
+      "sourceName": "cache/solpp-generated-contracts/v1/interfaces/IVotePool.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IVotePool"
+      ]
+    },
+    "/Users/lisheng/mygit/vvvictorlee/hsc/hsc-contracts/cache/solpp-generated-contracts/v1/interfaces/IValidators.sol": {
+      "lastModificationDate": 1655536559047,
+      "contentHash": "d08318a54007462d3ae12b4f23e5ec2a",
+      "sourceName": "cache/solpp-generated-contracts/v1/interfaces/IValidators.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IVotePool.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IValidators"
+      ]
+    },
+    "/Users/lisheng/mygit/vvvictorlee/hsc/hsc-contracts/cache/solpp-generated-contracts/v1/library/SafeSend.sol": {
+      "lastModificationDate": 1655536559054,
+      "contentHash": "45ca996d6802f3498c2370a5995af8a5",
+      "sourceName": "cache/solpp-generated-contracts/v1/library/SafeSend.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "SafeSend"
+      ]
+    },
+    "/Users/lisheng/mygit/vvvictorlee/hsc/hsc-contracts/cache/solpp-generated-contracts/v1/interfaces/IPunish.sol": {
+      "lastModificationDate": 1655536559044,
+      "contentHash": "095a035c8b065de5fa80439b88d17a01",
+      "sourceName": "cache/solpp-generated-contracts/v1/interfaces/IPunish.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IPunish"
+      ]
+    },
+    "/Users/lisheng/mygit/vvvictorlee/hsc/hsc-contracts/cache/solpp-generated-contracts/v1/library/ReentrancyGuard.sol": {
+      "lastModificationDate": 1655536559051,
+      "contentHash": "c1d506396163e717930914ddeefa564b",
+      "sourceName": "cache/solpp-generated-contracts/v1/library/ReentrancyGuard.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ReentrancyGuard"
+      ]
+    },
+    "/Users/lisheng/mygit/vvvictorlee/hsc/hsc-contracts/cache/solpp-generated-contracts/v1/Punish.sol": {
+      "lastModificationDate": 1655536559160,
+      "contentHash": "8d579091c8bdc7148df4a9a2330862bc",
+      "sourceName": "cache/solpp-generated-contracts/v1/Punish.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Params.sol",
+        "./interfaces/IVotePool.sol",
+        "./interfaces/IValidators.sol",
+        "./interfaces/IPunish.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Punish"
+      ]
+    },
+    "/Users/lisheng/mygit/vvvictorlee/hsc/hsc-contracts/cache/solpp-generated-contracts/v1/mock/MockVotePool.sol": {
+      "lastModificationDate": 1655536559140,
+      "contentHash": "a4d286452de27d8a47caec4909abcd14",
+      "sourceName": "cache/solpp-generated-contracts/v1/mock/MockVotePool.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../Params.sol",
+        "../../library/SafeMath.sol",
+        "../interfaces/IVotePool.sol",
+        "../interfaces/IValidators.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "VotePool"
+      ]
+    },
+    "/Users/lisheng/mygit/vvvictorlee/hsc/hsc-contracts/cache/solpp-generated-contracts/v1/mock/MockValidators.sol": {
+      "lastModificationDate": 1655536559114,
+      "contentHash": "1f45a7911c76765c00f24b6b66e9a06f",
+      "sourceName": "cache/solpp-generated-contracts/v1/mock/MockValidators.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../Params.sol",
+        "../../library/SafeMath.sol",
+        "../library/SortedList.sol",
+        "../interfaces/IVotePool.sol",
+        "../VotePool.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "MockValidators"
+      ]
+    },
+    "/Users/lisheng/mygit/vvvictorlee/hsc/hsc-contracts/cache/solpp-generated-contracts/v1/mock/MockList.sol": {
+      "lastModificationDate": 1655536559065,
+      "contentHash": "cf0153717860ad80f0a71313d2906af9",
+      "sourceName": "cache/solpp-generated-contracts/v1/mock/MockList.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IVotePool.sol",
+        "../library/SortedList.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "MockList"
+      ]
+    },
+    "/Users/lisheng/mygit/vvvictorlee/hsc/hsc-contracts/cache/solpp-generated-contracts/v1/mock/MockPunish.sol": {
+      "lastModificationDate": 1655536559087,
+      "contentHash": "027264d85522783abac8ee0f25d2b604",
+      "sourceName": "cache/solpp-generated-contracts/v1/mock/MockPunish.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../Params.sol",
+        "../interfaces/IVotePool.sol",
+        "../interfaces/IValidators.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "MockPunish"
+      ]
+    },
+    "/Users/lisheng/mygit/vvvictorlee/hsc/hsc-contracts/cache/solpp-generated-contracts/v1/Governance.sol": {
+      "lastModificationDate": 1655536559043,
+      "contentHash": "995e2da55c49677621c2fc8a56acf169",
+      "sourceName": "cache/solpp-generated-contracts/v1/Governance.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Params.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Governance"
+      ]
+    },
+    "/Users/lisheng/mygit/vvvictorlee/hsc/hsc-contracts/cache/solpp-generated-contracts/v1/mock/MockParams.sol": {
+      "lastModificationDate": 1655536559069,
+      "contentHash": "896a29eed10bd6dcc0bd2a6b4926c60a",
+      "sourceName": "cache/solpp-generated-contracts/v1/mock/MockParams.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IValidators.sol",
+        "../interfaces/IPunish.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Params"
+      ]
+    },
+    "/Users/lisheng/mygit/vvvictorlee/hsc/hsc-contracts/cache/solpp-generated-contracts/Validators.sol": {
+      "lastModificationDate": 1655536559241,
+      "contentHash": "7575f8b00b6029633fa6b7dab6ae8af8",
+      "sourceName": "cache/solpp-generated-contracts/Validators.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Params.sol",
+        "./Proposal.sol",
+        "./Punish.sol",
+        "./library/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Validators"
+      ]
+    },
+    "/Users/lisheng/mygit/vvvictorlee/hsc/hsc-contracts/cache/solpp-generated-contracts/Params.sol": {
+      "lastModificationDate": 1655536558957,
+      "contentHash": "28252d0ad00da2862b20506353f9a8e5",
+      "sourceName": "cache/solpp-generated-contracts/Params.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Params"
+      ]
+    },
+    "/Users/lisheng/mygit/vvvictorlee/hsc/hsc-contracts/cache/solpp-generated-contracts/Proposal.sol": {
+      "lastModificationDate": 1655536558998,
+      "contentHash": "736fd5e2cd2728f030780cefccda7233",
+      "sourceName": "cache/solpp-generated-contracts/Proposal.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Params.sol",
+        "./Validators.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Proposal"
+      ]
+    },
+    "/Users/lisheng/mygit/vvvictorlee/hsc/hsc-contracts/cache/solpp-generated-contracts/Punish.sol": {
+      "lastModificationDate": 1655536559014,
+      "contentHash": "6b65e6a104290097f0d857e934b070aa",
+      "sourceName": "cache/solpp-generated-contracts/Punish.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Params.sol",
+        "./Validators.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Punish"
+      ]
+    },
+    "/Users/lisheng/mygit/vvvictorlee/hsc/hsc-contracts/cache/solpp-generated-contracts/mock/MockValidators.sol": {
+      "lastModificationDate": 1655536558939,
+      "contentHash": "a38d7cbc139b61ef1e29d01c5d4256ab",
+      "sourceName": "cache/solpp-generated-contracts/mock/MockValidators.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../Proposal.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "MockValidators"
+      ]
+    },
+    "/Users/lisheng/mygit/vvvictorlee/hsc/hsc-contracts/cache/solpp-generated-contracts/Migrations.sol": {
+      "lastModificationDate": 1645768263756,
+      "contentHash": "aace5bfc6915db6ed9d6bb23cbb6f4ac",
+      "sourceName": "cache/solpp-generated-contracts/Migrations.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.8.0"
+      ],
+      "artifacts": [
+        "Migrations"
+      ]
+    },
+    "/Users/lisheng/mygit/vvvictorlee/hsc/hsc-contracts/cache/solpp-generated-contracts/v1/AddressList.sol": {
+      "lastModificationDate": 1645768263869,
+      "contentHash": "01276c450d28ba0c66cdeced0e786081",
+      "sourceName": "cache/solpp-generated-contracts/v1/AddressList.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "AddressList"
+      ]
+    }
+  }
+}
